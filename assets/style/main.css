@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(11, 95, 180);
+}
+
+.conatainer {
+  width: 650px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  transform: perspective(950px) rotateY(-35deg);
+}
+
+.card {
+  background-color: white;
+}
+
+@keyframes card {}/*# sourceMappingURL=main.css.map */
